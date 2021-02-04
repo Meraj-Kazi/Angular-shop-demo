@@ -1,0 +1,34 @@
+{
+    "products": [{
+            "id": 1,
+            "name": "jproduct - 1",
+            "category_id": 2,
+            "description": "Sample description",
+            "product_img": "img_path",
+            "price": 100,
+            "is_available": true,
+            "rating": 4,
+            "reviews": 128,
+            "vendor_name": "Seller -1",
+            "warranty": 2
+        },
+        {
+            "id": 2,
+            "name": "jproduct - 2",
+            "category_id": 3,
+            "description": "Sample description",
+            "product_img": "img_path",
+            "price": 40,
+            "is_available": true,
+            "rating": 3,
+            "reviews": 25,
+            "vendor_name": "Seller -1",
+            "warranty": 1
+        }
+    ],
+
+    "reviews": [
+        { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}
